@@ -1,5 +1,15 @@
 # to-do-list
 
+## Execute test script
+```
+npx jest addTask.test.js
+```
+
+## Execute test script with a resport 
+```
+npx jest addTask.test.js --json --outputFile=./tests/reports/report.json
+```
+
 ## Project setup
 ```
 npm install
