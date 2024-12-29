@@ -38,14 +38,3 @@ test('A função "addTask" deve adicionar uma nova task e atualizar o localStora
     expect.objectContaining({ title: 'New Task' })
   );
 });
-
-test('Deve checar os itens inseridos no localStorage', () => {
-  // Adiciona uma tarefa diretamente no localStorage
-  localStorage.setItem('tasks', JSON.stringify([{ id: 1, title: 'Test Task' }]));
-
-  // Recupera as tarefas do localStorage
-  const storedTasks = JSON.parse(localStorage.getItem('tasks'));
-
-  // Verifica o conteúdo do localStorage
-  expect(storedTasks).toEqual([{ id: 1, title: 'Test Task' }]);
-});

@@ -5,7 +5,7 @@
 npx jest addTask.test.js
 ```
 
-## Execute test script with a resport 
+## Execute test script with a report file
 ```
 npx jest addTask.test.js --json --outputFile=./tests/reports/report.json
 ```
