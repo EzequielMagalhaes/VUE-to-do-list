@@ -1,4 +1,20 @@
-# to-do-list
+# TO-DO-LIST
+# step-by-step
+
+## Clone project
+```
+git clone https://github.com/EzequielMagalhaes/VUE-to-do-list.git
+```
+
+## Project setup for install dependencies
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
 ## Execute test script
 ```
@@ -10,25 +26,7 @@ npx jest addTask.test.js
 npx jest addTask.test.js --json --outputFile=./tests/reports/report.json
 ```
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### Compiles and minifies for production
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
