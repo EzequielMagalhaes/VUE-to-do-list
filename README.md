@@ -1,6 +1,6 @@
 # Documentação Completa do Projeto To-Do List
 ## Introdução
-Este projeto implementa uma aplicação web para gerenciar tarefas (To-Do List). A interface é responsiva e moderna, permitindo ao usuário adicionar, alternar o status, remover tarefas e obter sugestões a partir de uma API externa. Esta documentação cobre todos os aspectos do projeto, incluindo arquitetura, tecnologias utilizadas e descrição detalhada dos códigos. Ao final, é apresentado um passo a passo para executar o programa.
+Este projeto implementa uma aplicação web para gerenciar tarefas (To-Do List). A interface é responsiva e moderna, permitindo ao usuário adicionar, alternar o status, remover tarefas e obter sugestões a partir de uma API externa. Esta documentação cobre todos os aspectos do projeto, incluindo arquitetura, tecnologias utilizadas e descrição detalhada dos códigos. Ao final,são apresentados os comandos necessários para executar o projeto localmente utilizando Vue e npm, assim como as instruções para criar e rodar a imagem Docker.
 
 ## Arquitetura do Projeto
 O projeto segue o padrão arquitetural MVVM (Model-View-ViewModel), implementado por meio do Vue.js. Este padrão garante uma clara separação de responsabilidades:
@@ -106,7 +106,12 @@ to-do-list/
 ## Conclusão
 Este projeto demonstra a implementação de um sistema de gerenciamento de tarefas com base no padrão MVVM, utilizando tecnologias modernas como Vue.js, Tailwind CSS e localStorage. A arquitetura e a separação de responsabilidades tornam o código limpo, reativo e fácil de manter.
 
-## Como executar
+## Como executar a imagem docker
+#### Executar imagem 
+```
+docker run -p 8080:8080 ezequielmagalhaes/to-do-list:1.0
+```
+## Como executar localmente
 #### Clonar projeto
 ```
 git clone https://github.com/EzequielMagalhaes/VUE-to-do-list.git
